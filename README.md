@@ -11,11 +11,11 @@ You can configure apm via a `~/.atom/.apmrc` file similarly to
 ## Relation to npm
 
 apm comes with [npm](https://github.com/npm/npm) and spawns `npm` processes to
-install Atom packages. The major difference is that `apm` sets multiple command
+install Atom packages. One major difference is that `apm` sets multiple command
 line arguments to `npm` to ensure that native modules are built against
 Chromium's v8 headers instead of node's v8 headers.
 
-The other major difference is that Atom packages are installed to
+Another major difference is that Atom packages are installed to
 `~/.atom/packages` instead of a local `node_modules` folder and Atom packages
 are published to and installed from GitHub repositories instead of
 [npmjs.org](https://www.npmjs.org)
